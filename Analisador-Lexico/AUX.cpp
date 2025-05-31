@@ -3,7 +3,7 @@
 #include <string>
 
 std::unordered_set<char> simbolosEspeciais{',','.',';','(',')',':','=','<','>','+','-','*'};
-std::unordered_set<std::string> palavrasReservadas{"program", "label", "var", "procedure", "function", "begin", "end", "if", "then", "else", "while", "do", "or", "and", "div", "not","integer"};
+std::unordered_set<std::string> palavrasReservadas{"program", "label", "var", "procedure", "function", "begin", "end", "if", "then", "else", "while", "do", "or", "and", "div", "not","integer","boolean"};
 bool verificaSimbEspeciais(char caracter){ 
 
     return simbolosEspeciais.find(caracter)!= simbolosEspeciais.end(); 

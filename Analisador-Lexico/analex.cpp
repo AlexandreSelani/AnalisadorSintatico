@@ -34,7 +34,7 @@
             contadorLinhas++;
             PROXIMO();
             
-            //programaEmCodigo<<contadorLinhas<<"\t";
+            programaEmCodigo<<contadorLinhas<<"\t";
 
         }
 
@@ -140,7 +140,7 @@
             }
             else{
                 proximo = programaFonte.get();
-               // programaEmCodigo<<contadorLinhas<<"\t";
+                programaEmCodigo<<contadorLinhas<<"\t";
             }
 
 

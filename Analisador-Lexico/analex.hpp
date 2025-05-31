@@ -7,7 +7,7 @@ class Analex{
     private:
         std::string atomo;
         char proximo;
-        int contadorLinhas=0;
+        int contadorLinhas=1;
         int contadorDeIdentificadores=0;
         std::string arquivoFonte;
         std::unordered_map<std::string, std::string> tabelaDeSimbolos;
